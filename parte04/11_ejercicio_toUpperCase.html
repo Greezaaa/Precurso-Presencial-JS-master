@@ -12,6 +12,32 @@
         /*
          * Escribe un programa que convierta a mayúsculas una frase que pides al usuario por consola.
          */
+
+        let userText = prompt('Escriba su frase en minusculas');
+        let upperText = userText.toUpperCase();
+
+        console.log(upperText);
+
+
+        /* 
+        La frase:
+
+
+        el único modo de hacer un gran trabajo es amar lo que haces - steve jobs
+
+        */
+
+
+        let a = userText.indexOf('-')
+        let nombreCompletoMinuscula = userText.substring((a + 2))
+        let frase = userText.toUpperCase().substring(0, (a - 1))
+        let b = nombreCompletoMinuscula.indexOf(' ')
+        let authorName = nombreCompletoMinuscula.substring(0, b);
+        let authorLast = nombreCompletoMinuscula.substring(b + 1)
+
+        let nombreMayuscula = authorName.charAt(0).toUpperCase() + authorName.slice(1)
+        let apellidoMayuscula = authorLast.charAt(0).toUpperCase() + authorLast.slice(1)
+        document.write(`${nombreMayuscula} ${apellidoMayuscula} dijo una vez \n "${frase}"`)
     </script>
 </body>
 
