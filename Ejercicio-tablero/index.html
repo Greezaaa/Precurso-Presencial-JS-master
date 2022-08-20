@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 1. Preguntar al usuario el ancho del tablero
+        // 2. Creamos siclo for para imprimir filas (row)
+        // 3. Creamos siclo for para imprimir columnas(columns)
+        // 4. Imprimimos O o X si la suma de columna mas fila es par o impar
+
+
+        let size = parseInt(prompt('Cual es el ancho del tablero')),
+            result = '';
+        for (let row = 1; row <= size; row++) {
+            for (let column = 1; column <= size; column++) {
+                if ((column + row) % 2 === 0) {
+                    result += 'O'
+                } else {
+                    result += 'X'
+                }
+            }
+            result += '\n';
+        }
+        console.log(result);
+
+
+
+
+
+    </script>
+</body>
+
+</html>
