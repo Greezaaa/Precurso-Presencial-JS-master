@@ -18,6 +18,18 @@
         * 3. Una vez sepas que posición ocupa dicho carácter, puedes recuperar una subcadena que devuelva el primer número
         * y otra subcadena que contenga el segundo número
         */
+
+        let input = prompt('Intenta sumar dos numeros (tipo: 23+56)')
+
+        let whereIsPlus = input.indexOf('+');
+
+        let firstNumber = input.substring(0, whereIsPlus);
+        let secondNumber = input.substring(whereIsPlus + 1);
+
+
+        console.log(firstNumber);
+        console.log(secondNumber);
+
     </script>
 </body>
 
