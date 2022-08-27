@@ -1,0 +1,71 @@
+*,
+*::before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 20px auto;
+}
+
+.intros,
+.news {
+  width: 900px;
+  max-width: 95%;
+  margin: auto;
+  padding: 20px;
+}
+.intros > h3,
+.news > h3 {
+  text-align: center;
+  padding: 2px 20px;
+  background-color: #fff;
+  text-transform: uppercase;
+  border-radius: 10px;
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 20px;
+}
+.intros > div.items,
+.news > div.items {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.intros > div.items .item__title,
+.news > div.items .item__title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #000;
+}
+.intros > div.items .item__content,
+.news > div.items .item__content {
+  font-size: small;
+  font-weight: 800; /* parace que contenido de párrafo es negrita, si no, se retira */
+}
+
+.intros {
+  background-color: rgb(204, 85, 87);
+}
+.intros h3 {
+  color: rgb(204, 85, 87);
+}
+.intros .items .item .item__title {
+  text-align: center;
+}
+.intros .items .item .item__content {
+  text-align: center;
+}
+
+.news {
+  background-color: rgb(54, 106, 57);
+}
+.news h3 {
+  color: rgb(54, 106, 57);
+}
+.news .items .item .item__title {
+  text-transform: none;
+}
