@@ -263,29 +263,66 @@ footer .wrapper .footer__content .footer__menu li h4 {
 footer .wrapper .footer__content .footer__menu li.lates {
   flex: 2;
 }
-footer .wrapper .footer__content .footer__menu li.lates .footer__menu_items .footer__menu_item {
+footer
+  .wrapper
+  .footer__content
+  .footer__menu
+  li.lates
+  .footer__menu_items
+  .footer__menu_item {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 3rem;
   margin: 2rem 0 2rem 1rem;
 }
-footer .wrapper .footer__content .footer__menu li.lates .footer__menu_items .footer__menu_item .footer__menu__item_img {
+footer
+  .wrapper
+  .footer__content
+  .footer__menu
+  li.lates
+  .footer__menu_items
+  .footer__menu_item
+  .footer__menu__item_img {
   outline: 0.2rem solid rgb(151, 151, 151);
   outline-offset: 0.5rem;
   height: 13rem;
   width: 13rem;
 }
-footer .wrapper .footer__content .footer__menu li.lates .footer__menu_items .footer__menu_item .footer__menu__item_img img {
+footer
+  .wrapper
+  .footer__content
+  .footer__menu
+  li.lates
+  .footer__menu_items
+  .footer__menu_item
+  .footer__menu__item_img
+  img {
   width: 13rem;
   height: 13rem;
   object-fit: cover;
 }
-footer .wrapper .footer__content .footer__menu li.lates .footer__menu_items .footer__menu_item .footer__menu_item_desc h4 {
+footer
+  .wrapper
+  .footer__content
+  .footer__menu
+  li.lates
+  .footer__menu_items
+  .footer__menu_item
+  .footer__menu_item_desc
+  h4 {
   color: rgb(226, 75, 75);
   font-weight: 600;
 }
-footer .wrapper .footer__content .footer__menu li.lates .footer__menu_items .footer__menu_item .footer__menu_item_desc p {
+footer
+  .wrapper
+  .footer__content
+  .footer__menu
+  li.lates
+  .footer__menu_items
+  .footer__menu_item
+  .footer__menu_item_desc
+  p {
   font-weight: 400;
   font-size: 1.4rem;
 }
@@ -324,4 +361,4 @@ footer .wrapper .footer__credits div {
 }
 footer .wrapper .footer__credits .copyright {
   text-transform: capitalize;
-}/*# sourceMappingURL=style.css.map */
+}
