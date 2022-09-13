@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    min-height: 90vH;
+    display: grid;
+    place-content: center;
+    font-family: serif;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 1280px;
+    max-width: 90%;
+    margin: auto;
+
+  }
+
+  .planet {
+    box-shadow: 0 0 0 rgb(255, 255, 255);
+    transition: all .3s ease-in-out;
+    border-radius: 5px;
+    border: .5px solid rgba(125, 125, 125, 0.299);
+  }
+
+  .planet:hover {
+    box-shadow: 2px 2px 10px rgba(125, 125, 125, 0.299);
+    transition: all .3s ease-in-out;
+  }
+
+  h2,
+  h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 10px 0;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h4 {
+    font-size: 1.4em;
+  }
+
+  ul {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  li {
+    text-align: center;
+    width: 150px;
+    font-size: 1.4em;
+  }
+
+  h2,
+  p {
+    padding: 20px;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+</style>
+
+<body>
+
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

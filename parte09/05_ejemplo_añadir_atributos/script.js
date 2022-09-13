@@ -6,5 +6,6 @@ let persona = {
 console.log(persona.primerApellido);
 
 persona.primerApellido = "Murguia";
-
-console.log(persona.primerApellido);
+persona.correo = "dominio@email.com"
+console.log(persona);
+console.log(persona.correo);
