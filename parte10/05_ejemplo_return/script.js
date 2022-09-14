@@ -6,3 +6,4 @@ function calculaPrecioTotal(precio) {
 }
 
 let precioTotal = calculaPrecioTotal(23.34);
+

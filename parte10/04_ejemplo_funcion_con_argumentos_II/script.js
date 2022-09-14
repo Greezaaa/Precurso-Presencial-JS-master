@@ -8,3 +8,4 @@ function calculaPrecioTotal(precio) {
 
 // Llamada a la función
 calculaPrecioTotal(23.34);
+
